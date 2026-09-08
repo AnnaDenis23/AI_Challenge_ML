@@ -73,19 +73,7 @@ Therefore, to select the appropriate model, he needs to **automatically determin
   - Lighting conditions vary across different camera settings
   - High intra-class variance (different times of day, weather conditions)
 
-#### 2. Data Preprocessing
 
-All images were resized to **224×224** and normalized using ImageNet statistics:
-
-```python
-from torchvision import transforms
-
-transform = transforms.Compose([
-    transforms.Resize((224, 224)),
-    transforms.ToTensor(),
-    transforms.Normalize(mean=[0.485, 0.456, 0.406],
-                         std=[0.229, 0.224, 0.225])
-])
 ---
 ##  Project 2: Weather Classification
 
@@ -120,16 +108,3 @@ Images may contain various distortions — noise, blur, reduced contrast, and ot
   - Snow and rain can visually resemble each other in certain conditions
   - Lighting variations affect color perception
 
-#### 2. Data Preprocessing
-
-All images were resized to **224×224** and normalized using ImageNet statistics:
-
-```python
-from torchvision import transforms
-
-transform = transforms.Compose([
-    transforms.Resize((224, 224)),
-    transforms.ToTensor(),
-    transforms.Normalize(mean=[0.485, 0.456, 0.406],
-                         std=[0.229, 0.224, 0.225])
-])
