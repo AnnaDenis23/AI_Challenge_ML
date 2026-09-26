@@ -1,31 +1,24 @@
-# Данные (важно!)
-*.pth
-*.pt
-*.h5
-*.ckpt
-*.onnx
-data_*/
-data/
-*.png
-*.jpg
-*.jpeg
-
 # Python
 __pycache__/
-*.pyc
-*.pyo
-.Python
-env/
-venv/
-*.egg-info/
-dist/
-build/
-
-# Jupyter
+*.py[cod]
 .ipynb_checkpoints/
-*.ipynb_checkpoints
+venv/
+env/
 
-# IDE
-.vscode/
-.idea/
+# Models (большие файлы — не пушим)
+*.pth
+*.pt
+
+# Data
+csv/*.csv
+!csv/sample_submission.csv
+
+# Streamlit
+.streamlit/secrets.toml
+
+# OS
 .DS_Store
+Thumbs.db
+
+# Colab
+colab/*.pth
