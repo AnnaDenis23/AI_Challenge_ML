@@ -84,8 +84,7 @@ pip install -r requirements.txt
 cp ~/Downloads/best_model.pth app/best_model.pth
 
 # Запустите приложение
-cd app
-streamlit run app.py
+python3 -m streamlit run app.py
 ```
 
 Приложение откроется на `http://localhost:8501`
