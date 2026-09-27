@@ -40,15 +40,14 @@ MVP-приложение на Streamlit для определения уровн
 ## 📁 Структура проекта
 
 ```
-light-classifier/
-├── app/                       # Streamlit-приложение
-│   ├── app.py                 # UI
-│   ├── model.py               # Архитектура
-│   ├── utils.py               # Утилиты и TTA
-│   └── best_model.pth         # Веса модели (скачать после обучения)
+project_light/              
+├──app.py                 # UI
+├──model.py               # Архитектура
+├──utils.py               # Утилиты и TTA
+├──best_model.pth         # Веса модели (скачать после обучения)
 │
-├── colab/
-│   └── train_colab.ipynb      # Обучение в Google Colab
+├── notebooks/
+│   └── solution.ipynb      # Обучение в Google Colab
 │
 ├── csv/                       # Данные
 │   ├── train.csv
