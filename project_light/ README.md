@@ -120,11 +120,9 @@ python3 -m streamlit run app.py
 
 ---
 
-## 📥 Где взять веса модели
+## 📥 Где взять данные
 
-Веса (`best_model.pth`, ~45 МБ) не хранятся в репозитории из-за размера. Скачать можно:
+- **Kaggle:** [https://www.kaggle.com/datasets/anastasiyadenisenko/light-data]
 
-- **Google Drive:** [ссылка на ваш файл]
-- **GitHub Releases:** [ссылка на релиз]
 
 После скачивания положите файл в папку `app/`.
